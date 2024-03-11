@@ -28,7 +28,7 @@ const Products = ({ totalQuantity, totalPrice }) => {
         {/* </div> */ }
     }
     if (status === "failed") {
-        return <div>Failed so nalla paaru itha error: {error}</div>
+        return <div className='flex flex-row items-center justify-center mt-24 text-xl'><i class="fa-solid fa-triangle-exclamation text-yellow-400 me-1"></i> Failed so nalla paarung itha error: {error}</div>
     }
     return (
         <div>

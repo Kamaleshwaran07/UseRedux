@@ -28,7 +28,7 @@ const Cart = ({ totalQuantity, totalPrice }) => {
   return (
     <div>
 
-      <div className='text-xl text-center mt-4'>It still in the work.... Stay tuned</div>
+      <div className='text-xl text-center mt-4'><i class="fa-solid fa-triangle-exclamation" id='error'></i>This page is in maintenance. It still in the work.... Stay tuned</div>
       {/* <h2>Cart</h2>
       <div className='w-full flex flex-row'>
         <div className='me-2'>{totalQuantity}</div>
