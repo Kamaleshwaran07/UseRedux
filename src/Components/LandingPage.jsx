@@ -8,7 +8,7 @@ const LandingPage = () => {
                 <div className='mx-20'>
                     <h1 className='text-6xl font-bold mb-2'>Welcome to <br /> Namma Oor Kadai</h1>
                     <p className='text-slate-700 mb-4'>Your one-stop shop for the latest smartphones</p>
-                    <a href='/products' className='mt-2 border-text-md rounded-lg text-blue-500 border-solid border-2 p-1 border-sky-500
+                    <a href={'/products'} className='mt-2 border-text-md rounded-lg text-blue-500 border-solid border-2 p-1 border-sky-500
                  font-semibold hover:text-white hover:bg-sky-500 text-center'>Browse Products</a>
                     <p className='mt-4 text-gray-500'>Free Shipping on all orders.</p>
                 </div>
